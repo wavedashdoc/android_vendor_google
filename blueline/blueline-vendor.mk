@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     embms \
     EuiccGoogle \
     EuiccSupportPixel \
-    GCS \
     grilservice \
     HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \

@@ -234,7 +234,6 @@ PRODUCT_PACKAGES += \
     DMService \
     EuiccGoogle \
     EuiccSupportPixel \
-    GCS \
     grilservice \
     HardwareInfo \
     HotwordEnrollmentOKGoogleRT5514 \

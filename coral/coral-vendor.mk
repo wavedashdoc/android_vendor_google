@@ -51,7 +51,6 @@ PRODUCT_PACKAGES += \
     DreamlinerUpdater \
     EuiccGoogle \
     EuiccSupportPixel \
-    GCS \
     grilservice \
     HardwareInfo \
     HotwordEnrollmentOKGoogleHEMIDELTA \
