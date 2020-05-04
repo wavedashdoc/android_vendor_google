@@ -231,7 +231,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
-    CarrierServices \
     CarrierSettings \
     CarrierSetup \
     ConnMO \
