@@ -79,7 +79,6 @@
         <permission name="android.permission.CALL_PRIVILEGED"/>
         <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
         <permission name="android.permission.GLOBAL_SEARCH"/>
-        <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MANAGE_USB"/>
         <permission name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
