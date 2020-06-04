@@ -96,7 +96,7 @@ LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/app/MotionSenseBridgePrebuilt/MotionSenseBridgePrebuilt.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
@@ -579,6 +579,18 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TetheringEntitlement
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRODUCT_MODULE := true
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := TmobileGrsuPrebuilt
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/product/priv-app/TmobileGrsuPrebuilt/TmobileGrsuPrebuilt.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
