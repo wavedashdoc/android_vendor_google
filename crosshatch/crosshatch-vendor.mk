@@ -17,7 +17,6 @@ PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
     atfwd \
-    CarrierServices \
     CarrierSettings \
     CarrierSetup \
     CarrierWifi \
@@ -33,7 +32,6 @@ PRODUCT_PACKAGES += \
     embms \
     EuiccGoogle \
     EuiccSupportPixel \
-    GCS \
     grilservice \
     HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
