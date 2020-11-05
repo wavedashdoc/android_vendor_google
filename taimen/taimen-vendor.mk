@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-aosp_wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-aosp_wahoo.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wahoo.xml \
+    vendor/google/taimen/proprietary/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2016_exclusive.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2017_exclusive.xml \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.ims.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ims.radio@1.0.so \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
