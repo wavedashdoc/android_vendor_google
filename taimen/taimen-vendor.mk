@@ -17,7 +17,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Prebuilt apps
 PRODUCT_PACKAGES += \
-    AmbientSensePrebuilt \
     AppDirectedSMSService \
     CarrierServices \
     CarrierSettings \
@@ -83,8 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/google/taimen/proprietary/etc/firmware/dnd.descriptor:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dnd.descriptor \
     vendor/google/taimen/proprietary/etc/firmware/dnd.sound_model:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dnd.sound_model \
-    vendor/google/taimen/proprietary/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/music_detector.descriptor \
-    vendor/google/taimen/proprietary/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/music_detector.sound_model \
     vendor/google/taimen/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.camera.experimental2017.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.verizon.embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.embms.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-aosp_wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-aosp_wahoo.xml \
@@ -125,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml
 
 PRODUCT_COPY_FILES += \
-    vendor/google/taimen/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/google/taimen/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
     vendor/google/taimen/proprietary/product/etc/CarrierSettings/apt_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/apt_tw.pb \
     vendor/google/taimen/proprietary/product/etc/CarrierSettings/att5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5g_us.pb \
