@@ -1,4 +1,4 @@
-# Copyright (C) 2018-2020 The PixelDust Project
+# Copyright (C) 2018-2021 The PixelDust Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -64,15 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.1.so \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.2.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.0.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.1.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.2.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.3.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.4.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.5.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.6.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.7.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.8.so \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.postproc@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.google.wifi_ext@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib/vendor.google.wireless_charger@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.google.wireless_charger@1.0.so \
@@ -127,15 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.0.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.1.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.2.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.3.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.4.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.5.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.6.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.7.so \
-    vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.8.so \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.google.wifi_ext@1.0.so \
     vendor/google/crosshatch/proprietary/system_ext/lib64/vendor.google.wireless_charger@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.google.wireless_charger@1.0.so \
@@ -310,6 +292,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/product/etc/felica/common.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/common.cfg \
     vendor/google/crosshatch/proprietary/product/etc/felica/mfm.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfm.cfg \
     vendor/google/crosshatch/proprietary/product/etc/felica/mfs.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfs.cfg \
+    vendor/google/crosshatch/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
+    vendor/google/crosshatch/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.connmo.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.android.sdm.plugins.dcmo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.sdm.plugins.dcmo.xml \
@@ -358,7 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/google/crosshatch/proprietary/vendor/bin/ccid_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ccid_daemon \
     vendor/google/crosshatch/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
-    vendor/google/crosshatch/proprietary/vendor/bin/chre:$(TARGET_COPY_OUT_VENDOR)/bin/chre \
     vendor/google/crosshatch/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/google/crosshatch/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/google/crosshatch/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
@@ -383,6 +366,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.citadel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.citadel \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.0-service-paintbox:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.0-service-paintbox \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
+    vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.rebootescrow-service.citadel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.rebootescrow-service.citadel \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/android.hardware.weaver@1.0-service.citadel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.weaver@1.0-service.citadel \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/citadel_updater:$(TARGET_COPY_OUT_VENDOR)/bin/hw/citadel_updater \
@@ -392,6 +376,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.google.radioext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.radioext@1.0-service \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wifi_ext@1.0-service-vendor \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.google.wireless_charger@1.2-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wireless_charger@1.2-service-vendor \
+    vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/google/crosshatch/proprietary/vendor/bin/hw/vendor.qti.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.media.c2@1.0-service \
     vendor/google/crosshatch/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
@@ -615,6 +600,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/etc/sensors/registry/tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/tmd2725_0.json \
     vendor/google/crosshatch/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/google/crosshatch/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.identity.strongbox.xml \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_wifi_ext.xml \
+    vendor/google/crosshatch/proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-citadel.xml \
     vendor/google/crosshatch/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/google/crosshatch/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/google/crosshatch/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
@@ -736,6 +727,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
     vendor/google/crosshatch/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
     vendor/google/crosshatch/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
+    vendor/google/crosshatch/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/google/crosshatch/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/google/crosshatch/proprietary/vendor/firmware/modemuw.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/modemuw.jsn \
     vendor/google/crosshatch/proprietary/vendor/firmware/nanoapp_config.textproto:$(TARGET_COPY_OUT_VENDOR)/firmware/nanoapp_config.textproto \
@@ -1015,13 +1007,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
-    vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
-    vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
-    vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.google.radioext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.google.radioext@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.google.radioext@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.google.radioext@1.1.so \
+    vendor/google/crosshatch/proprietary/vendor/lib/vendor.google.radioext@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.google.radioext@1.2.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.google_paintbox@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.google_paintbox@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
@@ -1368,10 +1357,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
-    vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
-    vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
-    vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
-    vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.google.radioext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.0.so \
     vendor/google/crosshatch/proprietary/vendor/lib64/vendor.google.radioext@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.1.so \
@@ -1664,10 +1649,4 @@ PRODUCT_PACKAGES += \
     WfcActivation \
     obdm_stub \
     com.google.android.camera.experimental2018 \
-    libhwinfo \
-    android.hardware.identity.strongbox \
-    android.hardware.keymaster@4.1-service.citadel \
-    android.hardware.weaver@1.0-service.citadel \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_wifi_ext \
-    rebootescrow-citadel
+    libhwinfo
