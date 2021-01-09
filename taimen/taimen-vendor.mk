@@ -96,7 +96,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     OemDmTrigger \
     qcrilmsgtunnel \
-    DCMO \
     DiagMon \
     EuiccGoogle \
     EuiccSupportPixel \
